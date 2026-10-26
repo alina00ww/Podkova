@@ -1,0 +1,540 @@
+body {
+    font-family: 'Podkova';
+    margin: 0;
+    background-color: #ffffff;
+}
+
+/* все картинки расставлены по макету через top и left */
+img {
+    position: absolute;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+
+.site {
+    position: relative;
+    width: 1280px;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    height: 900px;
+    padding-top: 198px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #d2b48c;
+}
+
+.saloon {
+    top: 7px;
+    left: 0;
+    width: 1279px;
+}
+
+.title {
+    color: #d2b48c;
+    font-size: 132px;
+    font-weight: 800;
+    line-height: 146px;
+}
+
+.title2 {
+    margin-top: -33px;
+}
+
+/* общее для всех блоков после шапки */
+.creators, .variable, .history, .weights, .digits, .footer {
+    position: relative;
+    height: 900px;
+    padding-top: 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h2, .names {
+    margin-left: 41px;
+    color: #d2b48c;
+    font-size: 53px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.text {
+    font-size: 31px;
+    line-height: 30px;
+}
+
+.creators {
+    background-color: #411d19;
+}
+
+.creators .text {
+    margin-top: 29px;
+    margin-left: 41px;
+    color: #ceb089;
+    font-size: 29px;
+    line-height: 27px;
+}
+
+.wood {
+    top: 0;
+    left: 782px;
+}
+
+.wanted2 {
+    top: 423px;
+    left: 893px;
+}
+
+.wanted1 {
+    top: 32px;
+    left: 898px;
+}
+
+.stool {
+    top: 633px;
+    left: 543px;
+}
+
+.wall {
+    top: 162px;
+    left: 527px;
+}
+
+.shelf1 {
+    top: 349px;
+    left: 589px;
+}
+
+.shelf2 {
+    top: 497px;
+    left: 0;
+}
+
+.bottle1 {
+    top: 403px;
+    left: 625px;
+}
+
+.bottle2 {
+    top: 289px;
+    left: 608px;
+}
+
+.bottle3 {
+    top: 253px;
+    left: 706px;
+}
+
+.bottle4 {
+    top: 403px;
+    left: 675px;
+}
+
+.bottle5 {
+    top: 289px;
+    left: 657px;
+}
+
+.bottle6 {
+    top: 439px;
+    left: 723px;
+}
+
+.lamp {
+    top: 0;
+    left: 410px;
+}
+
+.variable {
+    background-color: #9a3331;
+}
+
+.variable .text {
+    align-self: center;
+    margin-top: 250px;
+    margin-left: 2px;
+    color: #d2b48c;
+    text-align: center;
+}
+
+.stripes {
+    top: 148px;
+    left: 0;
+}
+
+.hat1 {
+    top: 43px;
+    left: 526px;
+}
+
+.hat2 {
+    top: 43px;
+    left: 975px;
+}
+
+.hat3 {
+    top: 690px;
+    left: 526px;
+}
+
+.boot1 {
+    top: 588px;
+    left: 940px;
+}
+
+.boot2 {
+    top: 588px;
+    left: 125px;
+}
+
+.boot3 {
+    top: 257px;
+    left: 1033px;
+}
+
+.boot4 {
+    top: 257px;
+    left: 54px;
+}
+
+.board {
+    top: 262px;
+    left: 307px;
+}
+
+.history {
+    background-color: #d2b48c;
+}
+
+.history h2 {
+    line-height: 42px;
+}
+
+.history .text {
+    margin-top: 186px;
+    margin-left: 306px;
+    color: #d2b48c;
+    font-weight: 500;
+}
+
+.stage1 {
+    top: 580px;
+    left: 174px;
+}
+
+.stage2 {
+    top: 192px;
+    left: 247px;
+}
+
+.stage3 {
+    top: 187px;
+    left: 173px;
+}
+
+.floor {
+    top: 616px;
+    left: 0;
+}
+
+.stage4 {
+    top: 189px;
+    left: 1003px;
+}
+
+.curtains {
+    top: 0;
+    left: 0;
+}
+
+.box1 {
+    top: 657px;
+    left: 24px;
+}
+
+.box2 {
+    top: 657px;
+    left: 346px;
+}
+
+.box3 {
+    top: 657px;
+    left: 669px;
+}
+
+.box4 {
+    top: 657px;
+    left: 991px;
+}
+
+.line1 {
+    top: 894px;
+    left: 0;
+}
+
+.chain1 {
+    top: 756px;
+    left: 473px;
+}
+
+.chain2 {
+    top: 756px;
+    left: 741px;
+}
+
+.chain3 {
+    top: 756px;
+    left: 1020px;
+}
+
+.weights {
+    background-color: #d2b48c;
+}
+
+.weights h2 {
+    color: #411d19;
+}
+
+.weight {
+    color: #d2b48c;
+    font-size: 61px;
+    line-height: 49px;
+}
+
+.medium {
+    margin-top: 9px;
+    margin-left: 923px;
+    font-weight: 500;
+}
+
+.regular {
+    margin-top: 69px;
+    margin-left: 384px;
+}
+
+.bold {
+    margin-top: 149px;
+    margin-left: 694px;
+    font-weight: 700;
+}
+
+.semibold {
+    margin-top: -43px;
+    margin-left: 114px;
+    font-weight: 600;
+}
+
+.extrabold {
+    margin-top: 206px;
+    margin-left: 304px;
+    font-weight: 800;
+}
+
+.stripe1 {
+    top: 148px;
+    left: 0;
+}
+
+.stripe2 {
+    top: 302px;
+    left: 0;
+}
+
+.stripe3 {
+    top: 457px;
+    left: 0;
+}
+
+.stripe4 {
+    top: 612px;
+    left: 0;
+}
+
+.stripe5 {
+    top: 767px;
+    left: 0;
+}
+
+.link1 {
+    top: 85px;
+    left: 1022px;
+}
+
+.link2 {
+    top: 112px;
+    left: 1032px;
+}
+
+.link3 {
+    top: 229px;
+    left: 484px;
+}
+
+.plate1 {
+    top: 84px;
+    left: 847px;
+}
+
+.plate2 {
+    top: 201px;
+    left: 299px;
+}
+
+.plate3 {
+    top: 398px;
+    left: 566px;
+}
+
+.plate4 {
+    top: 656px;
+    left: 264px;
+}
+
+.plate5 {
+    top: 404px;
+    left: 55px;
+}
+
+.wheel {
+    top: 535px;
+    left: 913px;
+}
+
+.chain4 {
+    top: 0;
+    left: 473px;
+}
+
+.chain5 {
+    top: 0;
+    left: 740px;
+}
+
+.chain6 {
+    top: 0;
+    left: 1020px;
+}
+
+.digits {
+    height: 1800px;
+    background-color: #3b4a3a; 
+}
+
+.digits h2 {
+    color: #d2b58c;
+}
+
+.digits .text {
+    margin-top: 107px;
+    margin-left: 350px;
+    color: #3b4a3a;
+    font-weight: 500;
+}
+
+.digits .signs {
+    margin-top: 558px;
+}
+
+.digits .text2 {
+    margin-top: 49px;
+    margin-left: 41px;
+    color: #d2b48c;
+    font-weight: 400;
+}
+
+.chips1 {
+    top: 4px;
+    left: 975px;
+}
+
+.chips2 {
+    top: 575px;
+    left: 348px;
+}
+
+.chip3 {
+    top: 549px;
+    left: 9px;
+}
+
+.card1 {
+    top: 650px;
+    left: 403px;
+}
+
+.card2 {
+    top: 623px;
+    left: 662px;
+}
+
+.card3 {
+    top: 563px;
+    left: 950px;
+}
+
+.card4 {
+    top: 282px;
+    left: 969px;
+}
+
+.card5 {
+    top: 0;
+    left: 205px;
+}
+
+.chip4 {
+    top: 1463px;
+    left: 904px;
+}
+
+.chip5 {
+    top: 1493px;
+    left: 62px;
+}
+
+.dice1 {
+    top: 1424px;
+    left: 387px;
+}
+
+.dice2 {
+    top: 1499px;
+    left: 628px;
+}
+
+.footer {
+    height: 350px;
+    background-color: #9a3331;
+}
+
+.names {
+    color: #d2b58c;
+}
+
+.hills {
+    top: 119px;
+    left: 128px;
+}
+
+.fence {
+    top: 218px;
+    left: 933px;
+}
+
+.moon {
+    top: 42px;
+    left: 923px;
+}
+
+.weed {
+    top: 156px;
+    left: 545px;
+}

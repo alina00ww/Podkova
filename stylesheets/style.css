@@ -1,0 +1,8 @@
+@import 'reset.css';
+@import 'layout.css';
+
+@font-face {
+    font-family: 'Podkova';
+    src: url('../fonts/Podkova.ttf');
+    font-weight: 400 800;
+}
