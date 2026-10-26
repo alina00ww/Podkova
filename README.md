@@ -8,7 +8,7 @@ https://alina00ww.github.io/Podkova/
 
 ## Скриншот
 
-!Главная страница (images/screenshot.png)
+![Главная страница](images/screenshot.png)
 
 ## Автор
 
